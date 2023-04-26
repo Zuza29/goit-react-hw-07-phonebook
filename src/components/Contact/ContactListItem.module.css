@@ -1,0 +1,43 @@
+.contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  font-weight: 400;
+  font-size: large;
+}
+
+.contact:before {
+  display: flex;
+  content: '';
+  width: 7px;
+  height: 7px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.button {
+  text-transform: initial;
+  background-color: #fff;
+  border: solid 1px #333;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: x-small;
+  padding: 3px 9px;
+  transition: background-color ease 150ms, border-color ease 150ms,
+    color ease 150ms;
+    font-family: inherit;
+}
+
+.button:hover {
+  color: white;
+  border-color: rgba(8, 108, 75, 0.5);
+  background-color: rgba(30, 236, 102, 0.5);
+}
+
+.button:active {
+  color: white;
+
+  border-color: rgba(8, 108, 75, 0.5);
+  background-color: rgba(30, 236, 102, 0.5);
+}
